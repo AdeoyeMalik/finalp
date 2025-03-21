@@ -417,6 +417,7 @@ backtohomecomple.addEventListener("click",()=>{
 // finding oproduct
 let productss =[];
 findanddisplypro.addEventListener("click", ()=>{
+    everyatb.style.display="none"
     homepage.style.display="none"
     findinfullpage.style.display="flex"
     searched =searchee.value
