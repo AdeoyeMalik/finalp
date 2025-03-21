@@ -512,6 +512,12 @@ function showmoretopsellingsearc(num){
     allatabppage.innerHTML+=topselinfoone;
  
 }
+function closefindassdpla(){
+    findinfullpage.style.display="none"
+    homepage.style.display="block"
+    findinfullpage.innerHTML += ""
+
+}
 function functionabpxmarkse(){
     allatabppage.style.display="none"
     findinfullpage.style.display="flex"
