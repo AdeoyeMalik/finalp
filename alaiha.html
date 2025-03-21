@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="alaiha.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/regular.css">
+</head>
+<body>
+    <!-- header1 -->
+     <header class="header1">
+        <img src="Azzedine_Alaïa___Alaia___corporate_logo-removebg-preview.png"  class="logo" alt="">
+        <ul class="ulheader1">
+            <li>HOME <i class="fa-solid fa-angle-down"></i></li>
+            <li>PAGES <i class="fa-solid fa-angle-down"></i></li>
+            <li>EXTRA PAGES <i class="fa-solid fa-angle-down"></i></li>
+            <li>BLOG <i class="fa-solid fa-angle-down"></i></li>
+            <li>BUY TEMPLATE <i class="fa-solid fa-angle-down"></i></li>
+        </ul>
+        <p class="plusspan">Need Help ?<br>+94 423-23-221</p>
+     </header>
+    <!-- header 2 -->
+     <header class="header2">
+        <ul class="ulatheader2">
+            <li class="categoriplusbar"><i class="fa-solid fa-bars header2icon"></i><span>Categories</span></li>
+            <li><input type="text" class="searchfunction" placeholder="Search over 10,000 products"> <i class="fa-solid fa-magnifying-glass glassing"></i></li>
+            <li class="li3icons"><i class="fa-solid fa-profile header2icon"></i> <i class="fa-regular fa-heart header2icon"></i><i class="fa-solid fa-cart-shopping header2icon cartbag"><p class="scartnum">2</p> </i> <i class="fa-regular fa-user header2icon"></i></li>
+        </ul>
+     </header>
+     
+     <!-- pop up  cart-->
+      <div class="popingfullcartforcheckout">
+        <i class="fa-solid fa-x dxatpop"></i>
+        <ul class="cartpooptit">
+            <li class="cartpopproduct">Products</li>
+            <li>Price</li>
+            <li>Quantity</li>
+        </ul>
+        <ul class="itemsul">
+            <li class="liimgplsproname"><img class="poppingcartimg" src="cat removed.png" alt="">IPHONE 11<br>APPLE</li>
+            <li class="liprice">$44 </li>
+            <li class="liquan"><p class="quantipop">1</p><button class="cycleic"><i class="fa-solid fa-recycle "></i></button><button><i class="fa-solid fa-trash"></i></button></li>
+            <li></li>
+        </ul>
+        <p class="totalcheckamt">Total: $44</p>
+        <div class="pamdbuttn">
+        <button class="checkoutbtn" onclick="opencheckout()" >CHECK OUT</button>
+    </div>
+      </div>
+      <div class="allartow">
+      <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <!-- <form action="/action_page.php"> -->
+                <i class="fa-solid fa-x xatrow"></i>
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="john@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                  <label for="city"><i class="fa fa-institution"></i> City</label>
+                  <input type="text" id="city" name="city" placeholder="New York">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">State</label>
+                      <input type="text" id="state" name="state" placeholder="NY">
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">Zip</label>
+                      <input type="text" id="zip" name="zip" placeholder="10001">
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                  </div>
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="September">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2018">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+              </label>
+              <input type="submit" value="Checkout" class="btn btnchec">
+            </form>
+          </div>
+        </div>
+      
+        <div class="col-25">
+          <div class="container">
+            <h4>Cart
+              <span class="price" style="color:black">
+                <i class="fa fa-shopping-cart"></i>
+                <b>4</b>
+              </span>
+            </h4>
+            <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+            <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+            <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+            <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+      
+    <!-- div for all homepage -->
+    <div class="divallhomepage">
+        <!-- div homepage grid images -->
+        <div class="homegridimgs">
+            <div class="firstgridimg">
+                <p class="insidefgdmg">ATTACK AIR<BR>MAX 720 SAGE LOW </p>
+                    <p class="secondinsidefgmdmg">Limited items available at this price</p><br><button class="btninsidehomedmg">Shop Now</button>
+            </div>
+            <div class="for3grid">
+            <div class="secondgridimg"><p class="insidesecondgridim">MENS COLLECTION</p></div>
+            <div class="thirdgridimg"><p class="insidethirdgridim">WOMENS COLLECTION</p></div>
+            <div class="fourthgridimg"><p class="insidefourthgridim">KIDS COLLECTION</p></div>
+        </div>
+    </div>
+
+    <!-- div for top selling part -->
+    <p class="toopselp">
+        Top Selling
+    </p>
+     <div class="divtopsellin">
+      
+      
+    </div>
+    <!-- b4 featured -->
+     <div class="b4featured">
+        <P class="pb4featured">ARMOR<br>AIR COLOR 720</P>
+        <span class="spanb4featured">Lightweight cushioning and durable support with a phylon midsole</span><br>
+        <span class="spanatb4featured">$90.00</span> <button class="btnatb4featued">Shop Now</button>
+     </div>
+     <!-- featured product part -->
+     <p class="toopselp">
+        Featured
+    </p>
+     <div class="divtopsellin2">
+      
+       
+    </div>
+    <!-- latest news  -->
+     <div class="latestnewspart">
+        <p class="platestnews">Latest News</p>
+        <div class="firsrowlatestnews">
+            <div class="firstrowimgplstext">
+                <div class="frowimg"><p class="infrowimg">28<br>Dec</p> </div>
+                <div class="frowtext">
+                    <p class="byfrow">by Mark Twain -20.11.2017</p>
+                    <p class="priop">Pri oportere scribentur eu</p>
+                    <p class="extra">Cu eum elit ,usu in elus appareat ,delenti sapientem<br> honestatis eos ex in ius esse ullum vidisse</p>
+                </div>
+            </div>
+            <div class="firstrowimgplstext">
+                <div class="frowimg"><p class="infrowimg">28<br>Dec</p> </div>
+                <div class="frowtext">
+                    <p class="byfrow">by Mark Twain -20.11.2017</p>
+                    <p class="priop">Pri oportere scribentur eu</p>
+                    <p class="extra">Cu eum elit ,usu in elus appareat ,delenti sapientem<br> honestatis eos ex in ius esse ullum vidisse</p>
+                </div>
+            </div>
+        </div>
+        <div class="secrowlatestnews">
+            <div class="firstrowimgplstext">
+                <div class="frowimg"><p class="infrowimg">28<br>Dec</p> </div>
+                <div class="frowtext">
+                    <p class="byfrow">by Mark Twain -20.11.2017</p>
+                    <p class="priop">Pri oportere scribentur eu</p>
+                    <p class="extra">Cu eum elit ,usu in elus appareat ,delenti sapientem<br> honestatis eos ex in ius esse ullum vidisse</p>
+                </div>
+            </div>
+            <div class="firstrowimgplstext">
+                <div class="frowimg"><p class="infrowimg">28<br>Dec</p> </div>
+                <div class="frowtext">
+                    <p class="byfrow">by Mark Twain -20.11.2017</p>
+                    <p class="priop">Pri oportere scribentur eu</p>
+                    <p class="extra">Cu eum elit ,usu in elus appareat ,delenti sapientem<br> honestatis eos ex in ius esse ullum vidisse</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+
+<!-- div for about product abp -->
+ <div class="everyshitatatb">
+ <div class="divallatabp">
+   <!-- <div class="productdiv" onclick="showmoretopselling1(index)">
+            <img src="${tselling.images[0]}" alt="${tselling.images[0]}" class="productimg">
+    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+    <p class="realpname">${tselling.title}</p>
+    <p class="productname"><span class="forb4pric">${tselling.price}</span><span class="forprice"><s>$170.00</s></span> </span></p>
+    <br><button class="addtocart">Add to cart</button>
+    </div> -->
+</div>
+
+
+<!-- description and  review part -->
+<ul class="onlydescrandrev">
+    <li><button class="descriptionbtn">Description</button></li><br>
+    <li><button class="Reviewbtn">Reviews</button></li>
+</ul>
+<div class="descriptionandreview">
+   
+    <div class="tobeflexdandr">
+        <div class="divabpallflex1">
+            <div class="abpwithstarabout">
+            <p class="puknudandr">Details</p>
+            <p class="loremabp1"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet a numquam impedit id! Ratione, magni, labore modi quod eligendi quae saepe consequatur ipsum delectus eveniet maxime omnis quasi exercitationem odit!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio quidem quod quisquam, enim impedit culpa obcaecati minus corporis labore ratione odio id sapiente soluta repellendus quam? Repellendus at doloremque autem.</p>
+            </div>
+            <div class="abpcolorside">
+                <div class="liabp1">
+                    <ul>
+                        <li class="">COLOR</li>
+                        <li>SIZE - Size Guide</li>
+                        <li>Weight</li>
+                        <li class="liabpprice">Manifacturer</li>
+                    </ul>
+                </div>
+                <div class="liabp2">
+                    <ul>
+                        <li class="">Blue,purplw</li>
+                         <li>150 100 100</li>
+                        <li>0.6kg</li>
+                        <li>Manifacturer</li>
+                    </ul>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+</div>
+<!-- related abp -->
+<!-- <div class="relatedabp">
+    <p class="abprelatedp">Related</p>
+    <p class="afterabprelated">Cum docus civibuse effeciantur in impedent deterutusient</p>
+    <div class="productdiv" onclick="showmore()">
+        <img src="cat removed.png" alt="" class="productimg">
+       <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+    <p class="realpname">ARMOR FER</p>
+   <p class="productname"><span class="forb4pric">Unslashed Price</span><span class="forprice">Slashed rice</span> </span></p>
+<br><button class="addtocart">Add to cart</button>
+</div>
+</div> -->
+</div>
+
+
+<!-- last parts -->
+<div class="paymentcompletpage">
+    <i class="fa-solid fa-check checkerathomepage"></i><br>
+
+    <p class="paymentsuccp">Payment successful</p>
+    <p class="paymentsucclinto">Your Payment was succeful.Thank you for shopping with us</p>
+    <p class="paymentthirdline">Transaction ID ACME -123456789<br>Date & Time june 23, 2022, 15:45  </p><br>
+    <button class="backtohomepage"> Continue shopping</button>
+
+</div>
+<div class="forseaerchindisplay">
+
+</div>
+
+ <div class="lastpaa">
+    <div class="allultobefle">
+    <ul class="lastp2colum">
+        <li class="lp1stli">QUICK LINKS</li>
+        <li>About us</li>
+        <li>Faq</li>
+        <li>Help</li>
+        <li>My account</li>
+        <li>Blog</li>
+        <li>Contacts</li>
+    </ul>    <ul class="lastp2colum">
+        <li class="lp1stli">CATEGORIES</li>
+        <li>Clothes</li>
+        <li>Electronics</li>
+        <li>Furniture</li>
+        <li>Glasses</li>
+        <li>Shoes</li>
+        <li>Watches</li>
+    </ul>
+    <ul class="lastp3coloum">
+        <li class="lp1stli">CONTACT</li>
+        <li class="limixedatlastp"><i class="fa-solid fa-house"></i>97845 Baker st.567<br>Los Angeles-US</li>
+        <li class="limixedatlastp"><i class="fa-solid fa-headphones"></i>+94 423-23-221</li>
+        <li class="limixedatlastp"><i class="fa-solid fa-envelope"></i>info@allai.com</li>
+    </ul>
+    <ul class="latp4coloum">
+        <li class="lp1stli">KEEP IN TOUCH</li>
+        <li class="lp1stli">Follow Us</li>
+         <li class="lastpico"><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-tiktok"></i><i class="fa-brands fa-whatsapp"></i></li>
+    </ul>
+</div> <hr class="hrlastp">
+    <div class="lidownwn">
+        <ul class="firstrowdown">
+            <li><button class="downdownbtn">English <i class="fa-solid fa-globe"></i></button></li>
+            <li><button class="downdownbtn">US Dollars <i class="fa-solid fa-angle-down"></i></button></li>
+        </ul>
+        <ul class="secrowdowndown">
+            <li>Terms and condition</li>
+            <li>Privacy</li>
+            <li>2024 Allaia</li>
+        </ul>
+    </div>
+ </div>
+    
+ </div>
+<script src="alaiha.js"></script>
+</body>
+</html>

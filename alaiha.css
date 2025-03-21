@@ -1,0 +1,749 @@
+body {
+    margin: auto 0;
+}
+/* header 1 */
+.logo {
+    height: 25vh;
+    position: absolute;
+    z-index: 100;
+    left:0 ;
+}
+.header1 {
+    display: flex;
+    gap: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 66, 243);
+    color: white;
+    justify-content: space-around;
+    font-weight: bolder;
+    /* margin-left: 5vh; */
+   
+    width: 100%;
+}
+.ulheader1{
+    display: flex;
+    list-style: none;
+    gap:6vh ;
+    /* position: relative;
+    left: 19vh; */
+    margin: auto;
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* margin-left: 47h; */
+
+}
+/* header 2 */
+.ulatheader2 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43vh;
+}
+.ulatheader2 .header2icon{
+     font-size: 4vh;
+}
+.ulatheader2  span{
+    font-size: 4vh;
+}
+.categoriplusbar {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+.li3icons {
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+}
+.cartbag {
+    position: relative;
+}
+.scartnum {
+    position: absolute;
+    font-size: 1.5vh;
+    padding: 0.7vh;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    top: 0vh;
+    left: 2vh;
+}
+.searchfunction {
+    width: 66vh;
+    height: 5vh;
+    /* border-radius: 20px; */
+    border: none;
+    background-color:  rgba(211, 211, 211, 0.26);
+    padding: 0vh 3vh;
+    box-sizing: border-box;
+    margin-bottom: 0vh;
+    position: relative;
+    font-size: 3vh;
+}
+.glassing{
+    position: absolute;
+    right: 70vh;
+    font-size: 3.5vh;
+    top: 14vh;
+
+}
+.plusspan {
+    text-align: right;
+}
+/* div for ALL home page */
+.divallhomepage{
+    
+}
+/* DIV grid first page img */
+.homegridimgs {
+    
+}
+.firstgridimg{
+    width: 100%;
+    background-image: url();
+    /* height: 70vh; */
+    background-color: rgb(165, 158, 158);
+    color: white;
+    text-align: right;
+    justify-content: center;
+    padding: 20vh 9vh;
+    box-sizing: border-box;
+    margin-bottom: 0.5vh;
+    background-image: url(alexander-rotker-l8p1aWZqHvE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.45);
+    /* padding-right: vh; */
+    
+}
+.insidefgdmg {
+    margin: auto;
+    font-size: 7vh;
+    font-weight: bolder;
+}
+.secondinsidefgmdmg {
+    font-size: 4vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+.btninsidehomedmg {
+    color: white;
+    background-color: blue;
+    border: none;
+    margin-top: 0vh;
+    padding: 1vh 2vh;
+    
+}
+.for3grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vh;
+}
+.secondgridimg {
+    width: 33%;
+    background-image: url(danilo-capece-NoVnXXmDNi0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-color:rgb(165, 158, 158) ;
+    padding: 9vh 0vh;
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.45);
+    box-sizing: border-box;
+}
+.thirdgridimg {
+    
+    width: 33.5%;
+    background-color:rgb(165, 158, 158) ;  
+    padding: 9vh 0vh;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: url(sebastien-chiron--pcDE5q-l_4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.45);
+
+}
+.fourthgridimg {
+    width: 33%;
+    background-color:rgb(165, 158, 158) ;
+    padding: 9vh 0vh;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: url(sebastien-chiron-1LFXMyrFRNw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.45);
+    /* opacity: 0.5; */
+    background-color: rgb(0, 0, 0.5);
+    position: relative;
+
+}
+.insidefourthgridim {}
+/* .fourthgridimg::after{
+    position: absolute;
+    content: "KIDS COLLECTION";
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    z-index: 1000000;
+} */
+/* top selling  */
+.toopselp {
+    font-size: 5vh;
+    text-align: center;
+    font-weight: bolder;
+}
+.productdiv{
+    /* background-color: ; */
+    text-align: center;
+    width: 41vh;
+}
+.productimg {
+    height: 30vh;
+    width: 100%;
+    border: none 1px ;
+    background-color: rgba(211, 211, 211, 0.26);
+    margin-bottom: 2vh;
+}
+.productname {
+    font-size: 3vh;
+    margin-bottom: -2vh;
+    font-weight: bolder;
+
+}
+.forb4pric {
+    margin-right: 1vh;
+}
+.forprice {
+    color: rgba(0, 0, 0, 0.568);
+}
+.addtocart {
+    background-color: gainsboro;
+    color:  black; 
+    border: solid 1px black;
+    border-radius: 20px;
+    height: 6vh;
+    width: 19vh;
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+    display: none;
+}
+.fa-star {
+    margin-bottom: vh;
+    color: orange;
+}
+.realpname{
+    font-weight: bolder;
+    margin-bottom: -1vh;
+}
+.divtopsellin{
+    padding: 2vh 10vh;
+    display: flex;
+    box-sizing: border-box;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 5vh;
+}
+.divtopsellin2{
+    padding: 2vh 10vh;
+    display: flex;
+    box-sizing: border-box;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 5vh;
+}
+/* b4 featuerd product */
+.b4featured{
+    background-color: rgb(165, 158, 158);
+    background-attachment: fixed;
+    background-image: url(leon-skibitzki-mHUk4Se7peY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 9vh 10vh;
+    box-sizing: border-box;
+    color: white;
+}
+.pb4featured {
+font-size: 6vh;
+font-weight: bolder;
+margin-bottom: 0vh;
+}
+.spanb4featured {
+    font-size: 3vh;
+}
+.spanatb4featured{
+    font-size: 4vh;
+    font-weight: bolder;
+  
+}
+.btnatb4featued{
+    color: white;
+    background-color: blue;
+    border: none;
+    margin-top: 0vh;
+    padding: 1vh 2vh;
+}
+/* latest news */
+.latestnewspart {
+    margin-bottom: 4vh;
+}
+.firstrowimgplstext {
+    display: flex;
+    gap: 4vh;
+}
+.frowimg {
+    width: 30vh;
+    height: 25vh;
+    background-color:rgba(145, 144, 144, 0.26);
+    background-image: url(jeff-tumale-SD9Jyl1xNQ4-unsplash.jpg);
+    background-size: cover;
+}
+.infrowimg{
+    /* text-align: right;
+    box-sizing:border-box;
+    /* padding: 2vh 6vh; */
+    /* text-align: center; */
+    background-color: rgb(255, 196, 0);
+    width: 4vh;
+    position: relative;
+    bottom: 2.9vh;
+    /* padding-right: 5vh;  */
+    padding: 2vh;
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+    font-weight: bolder;
+   
+}
+.byfrow{
+    font-size: 2vh;
+    color: rgba(0, 0, 0, 0.514);
+    margin-bottom: 0vh;
+}
+.priop {
+    font-weight: bolder;
+    font-size: 3.5vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+.extra {
+    /* margin-top: 1vh; */
+}
+.platestnews {
+    text-align: center;
+    font-size: 6vh;
+    font-weight: bolder;
+}
+.firsrowlatestnews {
+    display: flex;
+    justify-content: center;
+    gap: 8vh;
+    margin-bottom: 2vh;
+}
+.secrowlatestnews {
+    display: flex;
+    justify-content: center;
+    gap: 8vh;
+}
+/* about product page   abp*/
+.everyshitatatb {
+    display: none;
+}
+
+.divallatabp {
+
+}
+.abpxmark {
+    position: absolute;
+    font-size: 10vh;
+    right: 0vh;
+}
+.pabppageproductname {
+    font-size: 5vh;
+    font-weight: bolder;
+    position: absolute;
+
+}
+.divabpallflex1 {
+    display: flex;
+    width: 100%;
+    margin-bottom:4vh ;
+}
+.abpwithstarabout{
+    width: 50%;
+}
+.abpcolorside {
+    display: flex;
+   width: 50%;
+}
+.abpbackground {
+    margin: auto;
+    width: 100%;
+    height:70vh ;
+    background-color: rgba(211, 211, 211, 0.26);
+    display: flex;
+    align-items: center;
+   /* object-fit: contain; */
+   justify-content: center;
+}
+.abpimg{
+   width: 50%;
+   height: 100%;
+    /* width: ; */
+}
+.liabp1 > ul {
+     list-style: none;
+     line-height: 5vh;
+}
+.liabp2 > ul {
+    list-style: none;
+    line-height: 5vh;
+}
+.selectabp {
+    padding: 4px ;
+    font-size: 2vh;
+}
+.fa-minus {
+      position: absolute;
+      top: 108.48vh;
+      z-index: 10000;
+      left: 137vh;
+}
+.fa-plus{
+    position: absolute;
+    top: 108.48vh;
+    z-index: 1000000;
+    right: 40vh;
+}
+.abpcarttext{
+    text-align: center;
+    position: relative;
+    padding: 0vh;
+    /* width: 3vh; */
+}
+.abpaddtocart {
+    border: none;
+    background-color: blue;
+    padding: 2vh 3vh;
+    color: white;
+}
+.minustwenty {
+    border: none;
+    background-color: blue;
+    padding: 2vh 3vh;
+    color: white;
+}
+.liabpprice  button{
+    border: none;
+    background-color:red;
+    padding: vh 3vh;
+    color: white;
+}
+/* related abp */
+.abprelatedp{
+    text-align: center;
+    font-size: 7vh;
+    font-weight: bolder;
+    margin-bottom: -3vh;
+
+}
+.afterabprelated{
+    font-size: 4vh;
+    text-align: center;
+}
+/* description and review */
+.onlydescrandrev{
+    all: unset;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2vh;
+}
+.descriptionbtn {
+    font-size: 3vh;
+    color: blue;
+    padding: 1vh 0vh;
+    background-color: white;
+    border-color: blue;
+    border-top: none white;
+    border-left: white;
+    border-right: white;
+    border-style: solid;
+
+}
+.Reviewbtn{  
+    font-size: 3vh;
+    /* color:; */
+    padding: 1vh 0vh;
+    background-color: white;
+    border-color: blue;
+    border-top: none white;
+    border-left: white;
+    border-right: white;
+    border-bottom: white;
+    border-style: solid;
+}
+.puknudandr{
+    font-size: 4vh;
+    font-weight: bolder;
+    margin-bottom: -1vh;
+}
+.descriptionandreview{
+    background-color:  rgba(211, 211, 211, 0.26);
+    margin-bottom: 4vh;
+}
+/* last part */
+.lastpaa {
+    background-color: rgb(29, 29, 56);
+    padding: 2vh 4vh;
+    box-sizing: border-box;
+    color: white;
+}
+.allultobefle {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.allultobefle ul {
+    list-style: none;
+    line-height: 4vh;
+}
+.lp1stli {
+    font-size: 3vh;
+    margin-bottom: 2vh;
+}
+.lastpico {
+    display: flex;
+    gap: 2vh;
+}
+.lidownwn ul {
+    list-style: none;
+}
+.lidownwn {
+    display: flex;
+    justify-content: space-between;
+}
+.firstrowdown {
+    display: flex;
+    gap: 2vh;
+}
+.secrowdowndown {
+    display: flex;
+    gap: 3vh;
+}
+.downdownbtn {
+    padding: 1vh 2vh;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.205);
+    color: white;
+}
+/* popping cart  */
+.popingfullcartforcheckout {
+    padding: 0vh 15vh;
+    box-sizing: border-box;
+    display: none;
+}
+.poppingcartimg {
+     height: 18vh;
+
+}
+.cartpooptit {
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+    gap: 6vh;
+    font-size: 4vh;
+    font-weight: bolder;
+    border: solid 1px rgba(0, 0, 0, 0.349);
+    /* padding: vh 0vh ; */
+    /* box-sizing: border-box; */
+}
+.itemsul{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+    /* gap: 69vh; */
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+
+}
+.liimgplsproname {
+    margin-right: 86vh;
+    display: flex;
+    align-items: center;
+}
+.liprice{
+    margin-right: 15vh;
+}
+.liquan {
+    display: flex;
+}
+.cartpopproduct {
+    margin-right: 93vh;
+}
+.quantipop {
+    margin-right: 28vh;
+}
+.cycleic {
+    margin-right: 1vh;
+}
+.checkoutbtn {
+    border: none;
+    padding: 2vh ;
+    background-color: blue;
+    color: white;
+    display: flex;
+    
+
+}
+.totalcheckamt {
+    margin-bottom: 0;
+}
+.pamdbuttn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3vh;
+}
+.totalcheckamt {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 3vh;
+}
+.dxatpop{
+    text-align: right;
+}
+.blanker {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* position: absolute; */
+}
+/* .opencashoutbox */
+.allartow {
+    display: none;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  .paymentcompletpage {
+    margin: auto;
+    text-align: center;
+    padding: 2vh 3vh;
+  }
+  .paymentsuccp{
+    font-size: 6vh;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.paymentsucclinto {
+    font-size: 4vh;
+}
+.backtohomepage {
+    border: none;
+    background-color: black;
+    padding: 2vh 3vh;
+    color: white;
+    margin-bottom: 2vh;
+}
+.paymentcompletpage {
+    border: 1px solid black;
+    width: max-content;
+    /* padding: 4vh; */
+    box-sizing: border-box;
+    margin-bottom: 3vh;
+    display: none;
+}
+.checkerathomepage {
+    font-size: 8vh;
+    color: green;
+}
+.forseaerchindisplay{
+    display: none;
+}
+.forseaerchindisplay{
+    padding: 2vh 6vh;
+    flex-wrap: wrap;
+    display: none;
+    justify-content: center;
+    gap: 5vh;
+}
